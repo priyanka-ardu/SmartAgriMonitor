@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+scikit-learn
+statsmodels
+tensorflow
+matplotlib
+seaborn
+pydeck
+openpyxl
+kagglehub
