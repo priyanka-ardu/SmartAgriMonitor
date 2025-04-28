@@ -41,7 +41,6 @@ This project reimagines the Smart Agriculture Monitoring system as a file-upload
 
 4. **(Optional)** If you are using Kaggle datasets, you'll need to authenticate with the [Kaggle API](https://www.kaggle.com/docs/api).
 
-    - Place your `kaggle.json` file (which contains your Kaggle API credentials) in the `~/.kaggle/` directory (on Linux/Mac) or `C:\Users\<YourUsername>\.kaggle\` (on Windows).
 
 5. **Run the app**:
 
@@ -71,16 +70,30 @@ This project reimagines the Smart Agriculture Monitoring system as a file-upload
 The project is organized as follows:
 
 smart-agriculture-monitoring/ 
+
 ├── app.py # Main Streamlit app file 
+
 ├── pages/ # Individual page files 
+
 │ ├── 1_upload_data.py # Data upload page 
+
 │ ├── 2_eda.py # EDA page 
+
 │ ├── 3_clustering.py # Clustering page 
+
 │ ├── 4_classification.py # Classification page 
+
 │ └── 5_forecasting.py # Forecasting page 
+
 ├── src/ # Source code for utility functions 
+
 │ ├── utils/ 
+
 │ │ ├── data_loader.py # Data loading utility 
+
 │ │ └── preprocessing.py # Data preprocessing utility 
+
 ├── requirements.txt # Python dependencies 
+
 └── README.md # Project documentation
+
